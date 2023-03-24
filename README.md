@@ -32,3 +32,21 @@ Doing this in conjunction with oh-my-zsh will put the plugins in ~/.oh-my-zsh/cu
 >>>> THEN need to go to ~/.zshrc and set plugins to:
 plugins=(git zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting)
 
+# Font
+
+Monaspace: https://github.com/githubnext/monaspace?tab=readme-ov-file#monaspace
+> brew tap homebrew/cask-font
+> brew install font-monaspace
+ 
+ # VSCode Settings
+
+ ### User (User.Settings) 
+
+ > {
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "window.zoomLevel": 1
+}

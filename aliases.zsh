@@ -2,7 +2,6 @@ alias glol = log --graph --abbrev-commit --decorate --format=format:'%C(bold blu
 alias ga = git add
 alias gs = git status
 alias gc = git commit 
-alias gs = git status
 alias gco = git checkout
 alias gb = git branch
 alias gp = git push
