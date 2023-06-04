@@ -8,4 +8,3 @@ alias gp = git push
 alias gpom = git push origin main
 alias gref = git reflog
 alias gd = git diff
-alias p = pnmp

@@ -1,1 +1,3 @@
 brew install pnpm
+
+brew install --cask spotify
