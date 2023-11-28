@@ -1,0 +1,9 @@
+[user]
+	name = Sean Flanagan
+	email = flanspan11@gmail.com
+[core]
+	editor = code --wait
+[includeif "gitdir:~/dev/*"]
+  path = ~/.dotfiles/git/git_work/.gitconfig
+[init]
+	defaultBranch = main
