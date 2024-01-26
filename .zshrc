@@ -20,11 +20,17 @@ SAVEHIST=1000
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Path to java_home (zulu17)
+export JAVA_HOME=$(/usr/libexec/java_home)
+# Path to android home (Last known: Android 13)
+export ANDROID_HOME=$HOME/Library/Android/sdk
+# Path to Java emulator (Last known: Android 13 (Tiramisu)
+export PATH=$PATH:$ANDROID_HOME/emulator
+# Path to java tools (Last known: 33.0.0)
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Set name of the theme to load
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
 
 plugins=(git zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting)
 
@@ -36,3 +42,7 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
