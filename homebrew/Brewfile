@@ -1,3 +1,4 @@
 brew install pnpm
 
 brew install --cask spotify
+brew install supabase/tap/supabase
