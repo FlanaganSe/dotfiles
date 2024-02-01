@@ -8,6 +8,13 @@ Reset Karabiner console:
 launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
 ```
 
+Linking to config:
+
+```
+rm -rf ~/.config/karabiner/karabiner.json
+ln -s ~/.dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
+```
+
 ```bash
 # ARROW KEYS
 CMD + i    # up
