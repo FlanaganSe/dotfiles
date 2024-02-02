@@ -164,14 +164,14 @@
                   }
                 ],
                 "from": {
-                  "key_code": "w",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": ["any"]
                   }
                 },
                 "to": [
                   {
-                    "shell_command": "open -a 'Warp.app'"
+                    "shell_command": "open -a 'Terminal.app'"
                   }
                 ],
                 "type": "basic"
@@ -438,7 +438,12 @@
         "delay_milliseconds_before_open_device": 1000
       },
       "selected": true,
-      "simple_modifications": [],
+      "simple_modifications": {
+        "left_arrow": "out",
+        "right_arrow": "out",
+        "down_arrow": "out",
+        "up_arrow": "out"
+      },
       "virtual_hid_keyboard": {
         "country_code": 0,
         "indicate_sticky_modifier_keys_state": true,
