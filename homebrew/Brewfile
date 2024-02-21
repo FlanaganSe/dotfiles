@@ -1,5 +1,6 @@
 brew install pnpm
 brew install exa
+brew install deskpad
 
 brew install --cask spotify
 brew install supabase/tap/supabase
