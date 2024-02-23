@@ -1,8 +1,4 @@
-source_if_exists() {
-	if test -r "$1"; then
-		source "$1"
-	fi
-}
+DOTFILES=~/.dotfiles
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -10,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 #Enable git aliases
-source_if_exists $DOTFILES/zsh/aliases.zsh
+source $DOTFILES/zsh/aliases.zsh
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
