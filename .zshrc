@@ -23,7 +23,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
