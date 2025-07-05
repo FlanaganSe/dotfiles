@@ -1,6 +1,7 @@
 brew install pnpm
 brew install deskpad
 brew install lsd
+brew instlal raycast
 
 brew install --cask spotify
 brew install supabase/tap/supabase
