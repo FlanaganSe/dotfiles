@@ -13,7 +13,7 @@
    defaults write com.apple.dock autohide-time-modifier -float 0.4
    killall Dock
 
-Finder => Settings => Sidebar => Show Home Bar
+2. Finder => Settings => Sidebar => Show Home Bar
 => Advanced => Show filename extensions
 => View => Show Tab Bar
 => Show Path Bar
@@ -24,6 +24,11 @@ Desktop & Dock => Windows =>
   => Drag windows to menu bar to fill screen (toggle off)
 
 3. Notifications => Show preview (NEVER)
+
+4. Increase key repeat speed
+defaults write -g InitialKeyRepeat -float 10.0
+defaults write -g KeyRepeat -float 1.0
+
 
 ### Install zsh plugins:
 

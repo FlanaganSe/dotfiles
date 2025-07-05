@@ -1,7 +1,15 @@
 brew install pnpm
 brew install deskpad
 brew install lsd
-brew instlal raycast
+brew install 
 
 brew install --cask spotify
 brew install supabase/tap/supabase
+brew install --cask karabiner-elements
+brew install --cask font-meslo-lg-nerd-font
+brew install --cask firefox
+brew install --cask yaak
+brew install --cask deskpad
+brew install --cask visual-studio-code
+brew install neovim
+brew install --cask monitorcontrol
