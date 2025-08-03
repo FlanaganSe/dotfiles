@@ -5,14 +5,14 @@ I'm using it as... the lazy man's vim :)
 Reset Karabiner console:
 
 ```
-launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
+launchctl kickstart -k gui/$(id -u)/org.pqrs.service.agent.karabiner_console_user_server
 ```
 
 Linking to config:
 
 ```
 rm -rf ~/.config/karabiner/karabiner.json
-ln -s ~/.dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
+ln -s ~/.dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 ```
 
 ```bash
